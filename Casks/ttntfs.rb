@@ -2,8 +2,7 @@ cask "ttntfs" do
   version "0.4.1"
   sha256 "1a4d90309bab95772ea5efefdf069da0f53de5c481b4e3a061b4fc9bd4fad5c4"
 
-  url "https://github.com/dr-kbadawi/ttntfs/releases/download/v#{version}/TT-NTFS-Native-#{version}.dmg",
-      verified: "github.com/dr-kbadawi/ttntfs/"
+  url "https://github.com/dr-kbadawi/ttntfs/releases/download/v#{version}/TT-NTFS-Native-#{version}.dmg"
   name "TT NTFS Native"
   desc "NTFS read/write driver with no kernel extension, built on FSKit"
   homepage "https://ntfs.techtag.ch/"
