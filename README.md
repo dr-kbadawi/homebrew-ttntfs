@@ -6,7 +6,9 @@ NTFS read/write for macOS with no kernel extension. Free and open source.
     brew trust dr-kbadawi/ttntfs      # Homebrew 6 asks this once for third-party taps
     brew install --cask ttntfs
 
-Then open **TT NTFS Native** once and press **Enable Extension**.
+Then open **TT NTFS Native** once and press **Enable Extension**. On macOS 27
+the button reads **Open System Settings**; turn TT NTFS Native on there under
+**By Category → File System Extensions**.
 
 Requires macOS 26 (Tahoe) or later on Apple Silicon, with the native Apple
 Silicon Homebrew (`/opt/homebrew`). An Intel Homebrew running under Rosetta
